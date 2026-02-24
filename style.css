@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@media (max-width: 600px) {
+  /* tudo aqui só funciona no celular */
+}
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90dvh;
+    
+    
+
+}
+main{
+    background-color: rgba(0, 0, 0, 0.668);
+    border-radius: 10px;
+    width: 1050px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 20px;
+    border: solid #ffffff;
+    transform: scale(0.79);
+    transform-origin: top center;
+    position: fixed;
+    left: 21%;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.pfp{
+    width: 300px;
+    display: block; margin: 0 auto;
+    border-radius: 1000px;
+}
+.icons{
+    width: 100px;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+h2{
+    color: #ff77c9;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.189);
+}
+iframe{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: 4px solid #ffffff;
+}
+.icons2{
+    width: 80px;
+   
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+.zoom{
+     transition: transform 0.3s ease; /* suavidade */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* aumenta 10% */
+}
+.click-rotate {
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.click-rotate:active {
+  transform: rotate(10deg);
+}
+.glow {
+  color: #fff;
+  transition: text-shadow 0.3s ease; /* suavidade */
+  
+  /* brilho fraco */
+  text-shadow: 
+    0 0 8px rgb(0, 0, 0),
+    0 0 8px rgb(255, 255, 255);
+}
+
+.glow:hover {
+  /* brilho forte */
+  text-shadow:
+    0 0 8px rgb(0, 0, 0),
+    0 0 16px rgb(255, 255, 255),
+    0 0 32px rgb(255, 255, 255),
+    0 0 48px rgb(255, 255, 255);
+}
+.zoom2{
+     transition: transform 0.3s ease; /* suavidade */
+}
+
+.zoom2:hover {
+  transform: scale(0.8); /* aumenta 10% */
+}
